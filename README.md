@@ -37,4 +37,4 @@ Express Server (fetches data using RAW URLs)
         ↓
 Socket.io broadcasts updates
         ↓
-Next.js Client Dashboard updates in real-time
+Next.js Client Dashboard updates in real time
