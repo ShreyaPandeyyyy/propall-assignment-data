@@ -8,10 +8,10 @@ Instead of storing user and role data inside the backend, the server fetches the
 
 ## 📁 Files
 
-| File         | Purpose                                      |
-|--------------|-----------------------------------------------|
-| `users.json` | Stores user records displayed in dashboard   |
-| `roles.json` | Stores role-based access (admin / viewer)    |
+| File         | Purpose                                   |
+|--------------|--------------------------------------------|
+| `users.json` | Stores user records displayed in dashboard |
+| `roles.json` | Stores role-based access (admin / viewer)  |
 
 ---
 
@@ -38,24 +38,3 @@ Express Server (fetches data using RAW URLs)
 Socket.io broadcasts updates
         ↓
 Next.js Client Dashboard updates in real-time
-```
-
----
-
-## 🚀 What this proves in the assignment
-
-This setup demonstrates:
-
-- Use of external cloud-hosted data sources
-- Real-time dashboard updates using Socket.io
-- Separation of data layer from application layer
-- Role-based access using remote JSON configuration
-- Practical full-stack architecture similar to production systems
-
----
-
-## 👩‍💻 Author
-
-**Shreya Pandey**  
-B.E. Electronics & Communication Engineering  
-BMS College of Engineering
